@@ -1,0 +1,26 @@
+public class Main {
+    
+	public static void main(String[] args) {
+	    Persona persona = new Persona();
+	    Persona.setEdad(20);
+	    System.out.System.out.println(persona.getEdad());
+		
+	}
+}
+class persona {
+     
+    private int edad = 20;
+    private String nombre = Alan;
+    private int telefono = 1540630212;
+    
+    public void setEdad (int edad) {
+    this.edad = edad;
+    }
+    
+    public int getEdad() {
+        
+        return this.edad;
+    }
+    
+    
+} 
